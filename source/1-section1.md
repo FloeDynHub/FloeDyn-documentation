@@ -15,7 +15,9 @@ $$
 See [https://myst-parser.readthedocs.io/en/latest/syntax/optional.html](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html) for more info about syntax possibilities.
 
 ## References:
-How to do in markdown? You can add "anchors" in the text like this: `<a name="nameforyouranchor"></a>` and then you can make reference to it with `[text of the link](#nameforyouranchor)`. Here is an example:
+How to do in markdown? You can add "anchors" in the text like this: `<a name="nameforyouranchor"></a>` and then you can make reference to it with `[text of the link](#nameforyouranchor)`. 
+
+Here is an example of markdown file:
 
 ```
 ## latex integration:
