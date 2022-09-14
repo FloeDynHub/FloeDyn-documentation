@@ -29,4 +29,5 @@ I call this famous reference here [1]_
 
 ---
 Here is the list of full citations:
+
 .. [1] P. Rampal, S. Bouillon, E. Olason, and M. Morlighem. neXtSIM: a new Lagrangian sea ice model.  ́ The Cryosphere, 10:1055–1073, 2016.
