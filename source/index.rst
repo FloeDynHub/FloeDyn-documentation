@@ -13,9 +13,3 @@ Welcome to FloeDyn documentation
    1-section1
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
