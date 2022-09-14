@@ -25,8 +25,8 @@ Here is the list of full citations:
 ```
 How it renders in markdown:
 
-Here i call a famous paper [[1]](#ref1).
-Here is want to refer to the above [section about latex integration](#subseclatex).
+* Here i call a famous paper [[1]](#ref1).
+* Here is want to refer to the above [section about latex integration](#subseclatex).
 
 ---
 Here is the list of full citations:
