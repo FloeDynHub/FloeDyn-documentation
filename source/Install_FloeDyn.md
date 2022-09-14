@@ -55,7 +55,7 @@ export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/hdf5/serial
 Then come back to the configure step.
 
 
-Before run any simulations, you have to create a directory *outputs* in the io florder :
+    Before run any simulations, you have to create a directory *outputs* in the io florder :
 ```
 mkdir io/outputs
 ```
