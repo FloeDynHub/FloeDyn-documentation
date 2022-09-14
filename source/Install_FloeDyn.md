@@ -32,7 +32,7 @@ Command to install FloeDyn are recall in the readme file. This section also disc
 ```
 git clone git@gricad-gitlab.univ-grenoble-alpes.fr:Mo_MIZ/Floe_Cpp.git
 ```
-* go in FLOE$\_$CPP directory and 
+* go in FLOE\_CPP directory and 
 ```
 python3 ./waf configure --prefix=<where-you-want-to-install>
 ```
