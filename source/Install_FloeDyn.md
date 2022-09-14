@@ -14,6 +14,7 @@ The prerequisites given in the 'readme':
 * cgal
 * mpfr
 * cereal
+
 You also need the following package for mpi version and sequential version :
 * sagemath
 * libcgal-dev
