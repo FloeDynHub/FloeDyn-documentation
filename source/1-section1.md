@@ -15,7 +15,7 @@ $$
 See [https://myst-parser.readthedocs.io/en/latest/syntax/optional.html](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html) for more info about syntax possibilities.
 
 ## References
-How to do in markdown? You can add "anchors" in the text like this: `<a name="nameforyouranchor"></a>` and then you can make reference to it with `[text of the link](#nameforyouranchor)`. 
+How to do in markdown? Each section/subsection/subsubsection auto-generate achors that you can refer to elsewhere in the text with  `[text of the link](#name-of-your-subsection)`. 
 
 Here is an example of markdown file:
 
@@ -25,8 +25,9 @@ Here is an example of markdown file:
 
 How it renders in html:
 
-* Here i call a famous paper [[1]](#References)
+* Here i call a famous paper [[1]](#References) in the list of References.
 * Here is want to refer to the above [section about latex integration](#latex-integration).
+* Here i make reference to another [doc page/section](#Install-FloeDyn).
 
 ---
 ### References:
