@@ -1,18 +1,16 @@
-.. my_dummy documentation master file
+.. FloeDyn-documentation master file
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to my code's documentation!
+Welcome to FloeDyn documentation
 ==============================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   introduction
-   access-the-code
-   build_documentation
-   formatting-tips
+   0-introduction
+   1-section1
 
 
 Indices and tables

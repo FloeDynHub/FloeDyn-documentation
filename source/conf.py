@@ -19,9 +19,9 @@ sys.path.append(os.path.abspath('../'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'my-documentation-online'
-copyright = '2022, stephanie'
-author = 'stephanie'
+project = 'FloeDyn-documentation'
+copyright = '2022, Sophie Thery'
+author = 'Sophie Thery'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0'
