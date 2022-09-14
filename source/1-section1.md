@@ -21,7 +21,7 @@ Here is an example of markdown file:
 
 ```
 * Here i call a famous paper [[1]](#References) in the list of References.
-* Here is want to refer to the above [section about latex integration](#latex-integration).
+* Here i want to refer to the above [section about latex integration](#latex-integration).
 * Here i make reference to another [doc page/section](./Install_FloeDyn.md#Install-FloeDyn).
 
 ```
@@ -30,9 +30,9 @@ How it renders in html:
 
 * Here i call a famous paper [[1]](#References) in the list of References.
 * Here is want to refer to the above [section about latex integration](#latex-integration).
-* Here i make reference to another [doc page/section](./Install_FloeDyn.md#Install-FloeDyn).
+* Here i make reference to another [doc page/section](Install_FloeDyn.md#Install-FloeDyn).
 
 ---
-### References:
+### References
 
 [1] P. Rampal, S. Bouillon, E. Olason, and M. Morlighem. neXtSIM: a new Lagrangian sea ice model.  ́ The Cryosphere, 10:1055–1073, 2016.
