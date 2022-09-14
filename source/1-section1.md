@@ -22,15 +22,14 @@ Here is an example of markdown file:
 ```
 * Here i call a famous paper [[1]](#References) in the list of References.
 * Here i want to refer to the above [section about latex integration](#latex-integration).
-* Here i make reference to another [doc page/section](./Install_FloeDyn.md#Install-FloeDyn).
-
 ```
 
 How it renders in html:
 
 * Here i call a famous paper [[1]](#References) in the list of References.
 * Here is want to refer to the above [section about latex integration](#latex-integration).
-* Here i make reference to another [doc page/section](Install_FloeDyn.md#Install-FloeDyn).
+
+More explanations [here: https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html).
 
 ---
 ### References
