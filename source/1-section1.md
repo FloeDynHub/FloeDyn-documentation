@@ -1,6 +1,7 @@
 # Formatting tips
 
 ## latex integration:
+<a name="subseclatex"></a>
 
 Note that you can already write some nice latex:
 
@@ -24,7 +25,8 @@ Here is the list of full citations:
 ```
 How it renders in markdown:
 
-Here i call a famous paper [[1]](#ref1)
+Here i call a famous paper [[1]](#ref1).
+Here is want to refer to the above [section about latex integration](#subseclatex).
 
 ---
 Here is the list of full citations:
