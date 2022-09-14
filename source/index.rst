@@ -9,7 +9,7 @@ Welcome to FloeDyn documentation
    :maxdepth: 2
    :caption: Contents:
 
-   0-introduction
+   Install_FloeDyn
    1-section1
 
 
