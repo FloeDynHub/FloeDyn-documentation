@@ -36,10 +36,10 @@ Here is the list of the full citations:
 
 How it renders in html:
 
-* Here i call a famous paper [[1]](#ref1).
+* Here i call a famous paper {ref}`ref1`
 * Here is want to refer to the above [section about latex integration](#subseclatex).
 
 ---
 Here is the list of full citations:
 
-<a name="ref1">[1]</a> P. Rampal, S. Bouillon, E. Olason, and M. Morlighem. neXtSIM: a new Lagrangian sea ice model.  ́ The Cryosphere, 10:1055–1073, 2016.
+(ref1)= [1] P. Rampal, S. Bouillon, E. Olason, and M. Morlighem. neXtSIM: a new Lagrangian sea ice model.  ́ The Cryosphere, 10:1055–1073, 2016.
