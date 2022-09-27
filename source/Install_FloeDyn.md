@@ -41,13 +41,8 @@ for example, '<where-you-want-to-install>' can be replace by '\$HOME/Install/Flo
 python3 ./waf --target FLOE -v
 ```
     
-Two currents problems observed for the installation on ubuntu :
-* There may be problems concerning the use of mpi in the code, even during the compilation of the non parallel version. Solve the problem by :
-```
-export CXX=mpic++
-```
-Then come back to the configure step
-* If an error message appear :  */usr/bin/ld  cannot find  -lhdf5*. The path for lhdf5 is actually in hdf5/serial. Write
+One problem observed for the installation on ubuntu :
+If an error message appear :  */usr/bin/ld  cannot find  -lhdf5*. The path for lhdf5 is actually in hdf5/serial. Write
 ```
 export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/hdf5/serial
 ```
