@@ -124,7 +124,7 @@ In the help, all options are detailed, some options can be used only by the gene
 * **obstacles** Give an infitine mass for given floe. For exemple `--obstacle 0 5 10` will transform floe number 0 5 and 10 as obstacle.
 * **simulation from an outfile.h5:** to resume a previously stopped simulation at the breaktime 
 ```
-build/FLOE -i io/inputs/inputfile -r breaktime -f io/outputs/outputfile.h5 -t <finaltime>
+build/FLOE -i io/inputs/inputfile -r breaktime -f io/outputs/outputfile.h5 -t <final time>
 ```
 
 ## Two other executable to run simulations
