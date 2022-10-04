@@ -80,7 +80,7 @@ build/FLOE -i io/intputs/in_single_big_floe.h5 --fmodes 1 1 -t 1000
 ```
 build/FLOE -i io/intputs/in_single_big_floe.h5 --fmodes 4 0 --fspeed 20 0 -t 1000
 ```
-    Note that if if mode 0 is given (in our example for ocean current) then give a speed will have no effect (for example `--fmodes 4 0 --fspeed 20 20` will have no effect on ocean currents and `--fmodes 4 0 --fspeed 0 20` have no sense but `--fmodes 4 0 --fspeed 20 0` have.)
+Note that if if mode 0 is given (in our example for ocean current) then give a speed will have no effect (for example `--fmodes 4 0 --fspeed 20 20` will have no effect on ocean currents and `--fmodes 4 0 --fspeed 0 20` have no sense but `--fmodes 4 0 --fspeed 20 0` have.)
 * The vortex mode : there actually exist two vortex modes, both give wind’s currents and 0 mode for the ocean. A simple one that is a single vortex with mode `--fmodes 5 0` and a mode with different vortex `--fmodes 6 0`. These modes do not need to specify any speed. There is a special section on vortex mode below.
 ```
 build/FLOE -i io/intputs/in_single_big_floe.h5 --fmodes 5 0 -t 1000
