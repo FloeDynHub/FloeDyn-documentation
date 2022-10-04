@@ -9,13 +9,13 @@ We here explain in more detail the different possibilities.
 
 ## Run simulation from an existing input file
 
-There exist, There exist, in “io” directory, input files ready to be used as initial conditions. The minimum requirement is to give a final time with the option '-t   <final time in second>'
+There exist, There exist, in “io” directory, input files ready to be used as initial conditions. The minimum requirement is to give a final time with the option `-t   *final_time_in_second*`
 
 ***Example with one single big floe***
 ```
 build/FLOE -i io/intputs/in_single_big_floe.h5 -t 1000
 ```
-Here by default, the simulation is made with the mode  '--fmodes 1 1' which affect wind and currents from prescribed data (see paragraph below on TOPAZ data). We propose to begin with the mode '--fmodes 0 0' meaning no wind and no ocean currents. In this configuration, the floe will not move and previous command is equivalent to :
+Here by default, the simulation is made with the mode  `--fmodes 1 1` which affect wind and currents from prescribed data (see paragraph below on TOPAZ data). We propose to begin with the mode `--fmodes 0 0` meaning no wind and no ocean currents. In this configuration, the floe will not move and previous command is equivalent to :
 ```
 build/FLOE -i io/intputs/in_single_big_floe.h5 --fmodes 0 0 -t 1000
 ```
@@ -85,7 +85,7 @@ build/FLOE -i io/intputs/in_single_big_floe.h5 --fmodes 4 0 --fspeed 20 0 -t 100
 ```
 build/FLOE -i io/intputs/in_single_big_floe.h5 --fmodes 5 0 -t 1000
 ```
-Because wind speed is given by code in the file \TODO \textit{check this}, add an option `--fspeed` will not be taken into account. 
+Because wind speed is given by code in the file add an option `--fspeed` will not be taken into account. 
 
 
 ## Visualize the output
@@ -119,7 +119,7 @@ For image or video, following options can be added :
 
 ## Other options for simulation
 In the help, all options are detailed, some options can be used only by the generator (see section \ref{sec-generator}). Here we detail the different option that can be added for simulations:
-* **bustle option:** To improve the behavior of each floe, it is possible to add a random flow velocity at each floe with option `--bustle 1`  These options produce more contact between flow. The option `--nbustle <norm of the random speed>` give the max norm of these random speed, by default it is in the order of magnitude of 1e-7 m/sec
+* **bustle option:** To improve the behavior of each floe, it is possible to add a random flow velocity at each floe with option `--bustle 1`  These options produce more contact between flow. The option `--nbustle *norm_of_the_random_speed*` give the max norm of these random speed, by default it is in the order of magnitude of 1e-7 m/sec
 * **obl option:** coupling between ocean and floe speed. See paragraph OBL
 * **obstacles** Give an infitine mass for given floe. For exemple `--obstacle 0 5 10` will transform floe number 0 5 and 10 as obstacle.
 * **simulation from an outfile.h5:** to resume a previously stopped simulation at the breaktime 
