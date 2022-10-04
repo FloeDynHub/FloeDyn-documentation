@@ -62,8 +62,8 @@ The strategy adopted in this code to generate inpute file was describe quickly a
 * window size is calculated with the desired concentration
 * generation stop when the desired concentration is reached and all floes are in the window
 
-In practice, the code stop only when kinetric energy is zero ( in *generator.hpp* method *generate_floe_set*, around line 114 : `while (m_problem.get_floe_group().kinetic_energy() != 0 && end_time < 1e6 )  m_problem.get_floe_group().reset_impulses();` )
-Also, a arbitrary time is fixed to stop all floes which are inside the window, this stoping time is update periodically. ( in *generator.hpp* method *generate_floe_set*, around line 100 : `time_to_stop_floe_in_target_window` is by default 1000s and then uptade every 500s).
+In practice, the code stop only when kinetric energy is zero ( in *generator.hpp* method *generate_floe_set*, around line 114 : *while (m_problem.get_floe_group().kinetic_energy() != 0 && end_time < 1e6 )  m_problem.get_floe_group().reset_impulses();* )
+Also, a arbitrary time is fixed to stop all floes which are inside the window, this stoping time is update periodically. ( in *generator.hpp* method *generate_floe_set*, around line 100 : *time_to_stop_floe_in_target_window* is by default 1000s and then uptade every 500s).
 
 With this strategy, depending on the number of floe generated and the wind/current speed, generator could have difficulty to stop : 
 * if wind/current are too small compare to the number of generated floes and stoping time too small : it can create a "traffic jam" at the entrance of the window and the code will not be able to stop. 
@@ -91,7 +91,7 @@ Kinetic energy before setting at rest: 0
 Floe diameter : max = 613.929, min = 27.0417
 MPI max grid dim : 1x1 -> average 100 floes per core
 ```
-**Note** : MPI max grid dim is an advice on how many core can by used for the MPI version. These advice is based on floe size : a floe should not be "broken" by MPI grid. In these exemple, wa have by default one big floe, then maximal number of grid for MPI version is $1$ (non parralele). To avoid this, you can change the number of floe per size (see \ref{subsec-generator_options}).
+**Note** : MPI max grid dim is an advice on how many core can by used for the MPI version. These advice is based on floe size : a floe should not be "broken" by MPI grid. In these exemple, wa have by default one big floe, then maximal number of grid for MPI version is 1 (non parralele). To avoid this, you can change the number of floe per size (see paragraph below).
 
 ## Resize an input file
 
@@ -122,8 +122,8 @@ Other options useful to precisely create input file (to be completed):
 * option for the distribution law :
 	+  `--nbfpersize` sets the number of floe for each considered size. By default it is 1 (one big floe then one floe foe each size). For exemple with `--nbfpersize 4` will create 4 big floes which will be smaller than the big floe with default value. 
     +  `-a`  fractal dimension for the distribution power law.
-* modify the collision restitution : can be modify using `e <arg>`. 
-* modify  ice/ice static friction `-mu <arg>`. 
+* modify the collision restitution using `e <arg>`. 
+* modify  ice/ice static friction using `-mu <arg>`. 
 * modify physical properties of floes : modify the random variation of the ice floe thickness `-sigma <random variation of ice floe thickness>`, and the maximum size of floes `-m <floe_max_size>`
 
 
