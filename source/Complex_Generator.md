@@ -8,6 +8,8 @@ To generate more complex floe assembly, different executable file can be used :
 * **FLOE_SET_AT_REST** : zero out the kinetic energy a floe configuration
 We describe some possibilities of use, already explained in doxygen file page  4 (but probably it is an non updated version).
 
+*** Example to create huge floe assembly***
+
 The generator is able to handle less than 5 000 floes. A good optimum is about 2 000 floes. Then to create a huge floe assembly, one should use the following processus:
 * Knowing the total area of the floe assembly, split it in N*P cells (equal or not) containing about at most 2000 floes. For example, to create a 8000 assembly we need 4 cells of 2000 floes. Generate each cells using the generator :
 ```
