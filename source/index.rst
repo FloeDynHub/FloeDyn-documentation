@@ -10,6 +10,6 @@ Welcome to FloeDyn documentation
    :caption: Contents:
 
    Install_FloeDyn
-   1-section1
+   First_Use
 
 
