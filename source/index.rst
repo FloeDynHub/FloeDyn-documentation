@@ -11,5 +11,7 @@ Welcome to FloeDyn documentation
 
    Install_FloeDyn
    First_Use
+   Generate_Input
+   Complex_Generator
 
 
