@@ -25,16 +25,12 @@ build/FLOE_MAKE_X4_INPUT io/inputs/in_2000f_06p_1.h5
 build/FLOE_MAKE_NXP_INPUT io/inputs/in_2000f_06p_1.h5 <nb_row> <nb_col>
 ```
 *  Or, use the executable **FLOE_PATCHWORK_INPUT** to reproduce the whole area from different inputs (and resize for N_m x P_m).
-* **WARNING** :  **FLOE_PATCHWORK_INPUT** and co generate miniature packs on an window 1meter x 1 meter. You have to resize your input with **FLOE_RESIZE_INPUT**
+* **WARNING** :  **FLOE_MAKE_X4_INPUT**, **FLOE_MAKE_NXP_INPUT** and **FLOE_PATCHWORK_INPUT** generate miniature packs on an window 1meter x 1 meter. You have to resize your input with **FLOE_RESIZE_INPUT**
 *  In order to erase the artificial border between cells, one should run simulation without mode 2 as to change ice concentration. The given water speed is low to avoid too strong collision or displacement which can make a problem too hard to solve. The bustle, even weak, helps to rearrange the floe assembly and set the ice/ice friction mu to 0 helps to rearrange as well. Also, adding a higher concentration (in our example at 0.7)  reduces the target zone, so convergent currents, applied to the floes outside the reduced target zone, act to rearrange the configuration.
 ```
 build/FLOE -i <initial_floe_config.h5> --fmodes 0 2 --fspeeds 0 5e-2 -c 0.7 --mu 0 --bustle 1 --nbustle 1e-7 -t 40000
 ```
-* Then to extract an input file from the output file use :
-```
-build/FLOE_EXTRACT_INPUT io/outputs/out_JKDfE.h5 <time for extract data>
-```
-For example :
+* Then to extract an input file from the output file use **FLOE_EXTRACT_INPUT** :
 ```
 build/FLOE_EXTRACT_INPUT io/outputs/out_JKDfE.h5 40000
 Reading "io/outputs/out_JKDfE.h5" ... 
