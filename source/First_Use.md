@@ -140,9 +140,9 @@ When plotting the result from a PBC simulation, you can add option `--ghosts` to
 python3 plot img -f io/outputs/out_files.h5 --ghosts
 ```
 * **parallel version:** There exists version of FloeDyn using MPI. To run simulation write :
-parallel version
+```
 mpirun -np 10 ./build/FLOE_MPI -i io/inputs/floes_config.h5 -t <final time>
-parallel version
+```
 Where `-np` is the number of processor. From the given number of processor, FloeDyn calculates how many zones it will cut the window. Here with 10 processor, FloeDyn will cut the window in 4 zones (1 processor by zone, plus 1 prossesor for the 5 zones between each zone and 1 "global" processor).
 
 
