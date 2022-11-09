@@ -13,5 +13,6 @@ Welcome to FloeDyn documentation
    First_Use
    Generate_Input
    Complex_Generator
+   Details
 
 
