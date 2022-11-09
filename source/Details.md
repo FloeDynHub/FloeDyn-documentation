@@ -69,6 +69,7 @@ The Ocean boundary layer option activates the coupling between the floe and the 
 
 Without this option, the water speed is forced (like the wind speed) and the floe speed for a given time step is determined by these two speeds (see Matthias Rabatel's thesis for more details).
 Using OBL option, water speed is recalculated at each time step using wind speed and floe speed. More precisely: the given current velocity (noted $u_{w,data}$) is used as a low frequency acceleration but the velocity has higher frequency as :
+
 $$
 \begin{align*}
 &    U_w(t+\Delta t) = U_w(t) + \Delta t\left( F_a (U_a,U_w(t),t) + F_f (U_f,U_w,t) + C(U_w(t),t) + a_{w,data} (t)\right)\\
@@ -76,6 +77,7 @@ $$
 \text{ and } a_{w,data} (T_f)=0
 \end{align*}
 $$
+
 Where $F_a$ and $F_f$ are respectively the effect due to atmosphere drag and floe drag, $C$ represent the effect due to the Coriolis effect.
 Thus, with the OBL option, even if there is no current at low frequency ($U_{w,data}= 0$), the current velocity ($U_w$) will still be modified by the floe speed and the wind speed and may be non-zero.
 
