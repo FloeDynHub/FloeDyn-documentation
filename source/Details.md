@@ -10,7 +10,7 @@ The wind speeds are from ERAinterim data from February 2008 taken in the Barentz
 Some references :
 * the wind come from ERAinterim : [[Dee and al., 2011]](#References)
 * ocean current from TOPAZ4 : 
-	+on TOPAZ : [[Rainer and al., 2002]](#References) and [[Bleck and al., 2008]](#References)
+	+ on TOPAZ : [[Rainer and al., 2002]](#References) and [[Bleck and al., 2008]](#References)
 	+ on the data in FloeDyn [[Sakov and al., 2012]](#References)
 ## The vortex mode
 
