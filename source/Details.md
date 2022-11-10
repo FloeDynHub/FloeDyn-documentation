@@ -49,6 +49,7 @@ __b/ With mode 6,__ multiple vortexes are created like in mode 5 and are moved t
 * 3/ $d_V$ as the distance between the origin of the ice field and the 1st corona (no vortex
 can be closer to the field than d V ).
 * 4/ $d_C$ as the distance between two corona.
+
 The generation of the vortexes proceeds as follows:
 * 1/ an angle and a distance are randomly defined to place the 1st vortex in the 1st
 crown.
