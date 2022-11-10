@@ -97,7 +97,7 @@ Some practical applications are proposed in these objects:
 	+ compute and plot for the variance (of the distance from origin and the dispersion) :
 		- polynomial approximations for different phase.
 		- for separe groups sorted by area or diameter.
-* `Multiple_data_extractor`: do the same that `Data_extractor` for different simulation, considering the mean on all simulations and managing the different computation from `Data_extractor` for each simulations. Possibilities are explain in details in `trajectories_analisys.py`
+* `Multiple_data_extractor`: do the same that `Data_extractor` for different simulation, considering the mean on all simulations and managing the different computation from `Data_extractor` for each simulations. Possibilities are explain in details in `multiple_trajectories_analisys.py`
 
 These objects have been designed to be easy to use, adapt and modify to the user's needs
 
