@@ -44,10 +44,10 @@ $$
 $$
 
 __b/ With mode 6,__ multiple vortexes are created like in mode 5 and are moved toward differents points in the target zone. The vortices are generated and positioned at the initialization of the simulation. They are distributed in rings around the ice field. The user defines :
-* 1/ $n_c$ , $n_v$ respectively the number of rings and the number of vortices.	
-* 2/ the number of vortices per ring.
+* 1/ $n_v$   the number of vortices.
+* 2/ the number of vortices per ring and deduce $n_c$ the number of rings.
 * 3/ $d_V$ as the distance between the origin of the ice field and the 1st corona (no vortex
-can be closer to the field than d V ).
+can be closer to the field than $d_V$ ).
 * 4/ $d_C$ as the distance between two corona.
 
 The generation of the vortexes proceeds as follows:
