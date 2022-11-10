@@ -100,15 +100,15 @@ These objects have been designed to be easy to use, adapt and modify to the user
 
 ## References 
 
-[Dee and al., 2011,] DP Dee, SM Uppala, AJ Simmons, Paul Berrisford, P Poli, S Kobayashi, U Andrae, MA Balmaseda, G Balsamo, and P Bauer. The era-interim reanalysis : Conﬁguration and performance of the data assimilation system. Quarterly Journal of the Royal Meteorological Society, 137(656) :553–597, 2011
-[Bleck and al., 2002] Rainer Bleck. An oceanic general circulation model framed in hybrid isopycnic-cartesian coordinates. Ocean modelling, 4(1) :55–88, 2002
-[Bertino and al.  2008] Laurent Bertino, KA Lisæter, and S Scient. The topaz monitoring and prediction system for the atlantic and arctic oceans. Journal of Operational Oceanography, 1(2) :15–18, 2008
-[Sakov and al., 2012] P. Sakov, F. Counillon, L. Bertino, K. A. Lisaeter, P. R. Oke, and A. Korablev. Topaz4 : an ocean-sea ice data assimilation system for the north atlantic and arctic.
-[Willoughby and Rahn, 2004] Willoughby, H., and M. Rahn (2004), Parametric representation of the primary hurricane vortex. Part
+* [Dee and al., 2011,] DP Dee, SM Uppala, AJ Simmons, Paul Berrisford, P Poli, S Kobayashi, U Andrae, MA Balmaseda, G Balsamo, and P Bauer. The era-interim reanalysis : Conﬁguration and performance of the data assimilation system. Quarterly Journal of the Royal Meteorological Society, 137(656) :553–597, 2011
+* [Bleck and al., 2002] Rainer Bleck. An oceanic general circulation model framed in hybrid isopycnic-cartesian coordinates. Ocean modelling, 4(1) :55–88, 2002
+* [Bertino and al.  2008] Laurent Bertino, KA Lisæter, and S Scient. The topaz monitoring and prediction system for the atlantic and arctic oceans. Journal of Operational Oceanography, 1(2) :15–18, 2008
+* [Sakov and al., 2012] P. Sakov, F. Counillon, L. Bertino, K. A. Lisaeter, P. R. Oke, and A. Korablev. Topaz4 : an ocean-sea ice data assimilation system for the north atlantic and arctic.
+* [Willoughby and Rahn, 2004] Willoughby, H., and M. Rahn (2004), Parametric representation of the primary hurricane vortex. Part
 I: Observations and evaluation of the Holland (1980) model, Monthly Weather Review, 132(12),
 3033-3048
-[Jouanno and al., 2016]Jouanno, J., X. Capet, G. Madec, G. Roullet, P. Klein, and S. Masson (2016), Dissipation of the energy
+* [Jouanno and al., 2016]Jouanno, J., X. Capet, G. Madec, G. Roullet, P. Klein, and S. Masson (2016), Dissipation of the energy
 imparted by mid-latitude storms in the Southern Ocean, Ocean Sci., 12, 7432-7769
-[Smirova and al., 2015] Smirnova, J. E., P. A. Golubkin, L. P. Bobylev, E. V. Zabolotskikh, and B. Chapron (2015), Polar low
+* [Smirova and al., 2015] Smirnova, J. E., P. A. Golubkin, L. P. Bobylev, E. V. Zabolotskikh, and B. Chapron (2015), Polar low
 climatology over the Nordic and Barents seas based on satellite passive microwave data, Geophys.
 Res. Lett., 42(13), 5603-5609.
