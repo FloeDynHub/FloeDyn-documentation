@@ -98,7 +98,7 @@ Some practical applications are proposed in these objects:
 
 These objects have been designed to be easy to use, adapt and modify to the user's needs
 
-### References 
+## References 
 
 [Dee and al., 2011,] DP Dee, SM Uppala, AJ Simmons, Paul Berrisford, P Poli, S Kobayashi, U Andrae, MA Balmaseda, G Balsamo, and P Bauer. The era-interim reanalysis : Conﬁguration and performance of the data assimilation system. Quarterly Journal of the Royal Meteorological Society, 137(656) :553–597, 2011
 [Bleck and al., 2002] Rainer Bleck. An oceanic general circulation model framed in hybrid isopycnic-cartesian coordinates. Ocean modelling, 4(1) :55–88, 2002
