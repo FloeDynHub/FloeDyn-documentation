@@ -44,16 +44,16 @@ $$
 $$
 
 __b/ With mode 6,__ multiple vortexes are created like in mode 5 and are moved toward differents points in the target zone. The vortices are generated and positioned at the initialization of the simulation. They are distributed in rings around the ice field. The user defines :
-	__1 $n_c$ , $n_v$ respectively the number of rings and the number of vortices.	
-	__2 the number of vortices per ring.
-	__3 $d_V$ as the distance between the origin of the ice field and the 1st corona (no vortex
+* 1/ $n_c$ , $n_v$ respectively the number of rings and the number of vortices.	
+* 2/ the number of vortices per ring.
+* 3/ $d_V$ as the distance between the origin of the ice field and the 1st corona (no vortex
 can be closer to the field than d V ).
-	__4 $d_C$ as the distance between two corona.
+* 4/ $d_C$ as the distance between two corona.
 The generation of the vortexes proceeds as follows:
-* an angle and a distance are randomly defined to place the 1st vortex in the 1st
+* 1/ an angle and a distance are randomly defined to place the 1st vortex in the 1st
 crown.
-* for the following wormholes, the angle is defined from the previous one by adding a random angle belonging to $[\pi/2,\pi]$, the distance varies slightly at random placing the wormhole in its associated in its associated corona.
-* Each vortex is associated with a point randomly drawn within the Target zone. The trajectory of the vortex passes through this point.
+* 2/ for the following wormholes, the angle is defined from the previous one by adding a random angle belonging to $[\pi/2,\pi]$, the distance varies slightly at random placing the wormhole in its associated in its associated corona.
+* 3/ Each vortex is associated with a point randomly drawn within the Target zone. The trajectory of the vortex passes through this point.
 	
 Example to create 3 vortex, 1 vortex by zone (defined as rings surrounding the ice fields), thes rings are of size 100 km and the distance of the first ring to the ice field origin is 300 km: 
 ```
