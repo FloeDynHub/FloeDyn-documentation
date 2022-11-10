@@ -16,7 +16,7 @@ Some references :
 
 The vortex mode is given by the mode 5 for the atmosphere, in this case, water speed is automatically put at 0 (see *src/floe/dynamics/physical_data.hpp* method `get_speed` near ligne 383 ). There is two possibilities for the vortex mode :
 
-__1/ With the mode 5__, a single random vortex is created, this vortex is moved toward the floe pack during the simulation. Its attributes are : the vortex radius, the center of the eye (`m_vortex_origin`), the vortex speed, and the max norm of the wind. Default values are given by the code and it can be modified in *src/floe/dynamics/physical_data.hpp* method `init_random_vortex` (near lign 344). The random parameter (given by gen.seed(90839527656); ) allows to create a random vortex, but you can also determine the vortex data by changing attributes in this method . This is based on a formulation originally proposed for tropical cyclones [[Willoughby and Rahn, 2004]](#References), then recently adapted for wormholes in the southern region [[Jouanno and al., 2016]](#References) :
+__a/ With the mode 5__, a single random vortex is created, this vortex is moved toward the floe pack during the simulation. Its attributes are : the vortex radius, the center of the eye (`m_vortex_origin`), the vortex speed, and the max norm of the wind. Default values are given by the code and it can be modified in *src/floe/dynamics/physical_data.hpp* method `init_random_vortex` (near lign 344). The random parameter (given by gen.seed(90839527656); ) allows to create a random vortex, but you can also determine the vortex data by changing attributes in this method . This is based on a formulation originally proposed for tropical cyclones [[Willoughby and Rahn, 2004]](#References), then recently adapted for wormholes in the southern region [[Jouanno and al., 2016]](#References) :
 * the analytical vortex is a perfectly circular wind system, with only the tangential component of the wind being non-zero
 tangential component of the wind
 * It is defined by the $R_c$ radius of the heart of the vortex ("the eye of the cyclone"), the maximum wind speed $U_m$, and the speed of displacement of the centre of the vortex $V$ (for simplicity, we can consider linear trajectories of this centre)
@@ -43,12 +43,12 @@ $$
 \end{align*}
 $$
 
-__2/ With mode 6,__ multiple vortexes are created like in mode 5 and are moved toward differents points in the target zone. The vortices are generated and positioned at the initialization of the simulation. They are distributed in rings around the ice field. The user defines :
-* n c , n v respectively the number of rings and the number of vortices.
+__b/ With mode 6,__ multiple vortexes are created like in mode 5 and are moved toward differents points in the target zone. The vortices are generated and positioned at the initialization of the simulation. They are distributed in rings around the ice field. The user defines :
+* $n_c$ , $n_v$ respectively the number of rings and the number of vortices.
 * the number of vortices per ring.
-* d V as the distance between the origin of the ice field and the 1st corona (no vortex
+* $d_V$ as the distance between the origin of the ice field and the 1st corona (no vortex
 can be closer to the field than d V ).
-* d C as the distance between two corona.
+* $d_C$ as the distance between two corona.
 The generation of the vortexes proceeds as follows:
 * an angle and a distance are randomly defined to place the 1st vortex in the 1st
 crown.
