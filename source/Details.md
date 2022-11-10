@@ -90,11 +90,13 @@ This 'toolkit' is separate in two python3 objects:
 * `Multiple_data_extractor.py`: use `Data_extractor` to extract data from a list of output file. 
 Some practical applications are proposed in these objects:
 * `Data_extractor` possibilities are explain in details in `trajectory_analisys.py` :
-	+ convert floes trajectories, floes speed, mass center position, OBL speed in array like object
-	+ sort floes by area/dimeter
+	+ convert floes trajectories, floes speed, mass center position, OBL speed in array like object.
+	+ sort floes by area/dimeter.
 	+ plot the differents trajectories/mass center position/speed etc...
-	+ compute and plot FFT of the different signal, variance of distance from origine, variance of the dispersion etc...
-	+ compute and plot polynomial approximations variance for the differents group sorted by area or diameter
+	+ compute and plot FFT of the different signal, variance of the distance from origine, variance of the dispersion etc...
+	+ compute and plot for the variance (of the distance from origin and the dispersion) :
+		- polynomial approximations for different phase.
+		- for separe groups sorted by area or diameter.
 * `Multiple_data_extractor`: do the same that `Data_extractor` for different simulation, considering the mean on all simulations and managing the different computation from `Data_extractor` for each simulations. Possibilities are explain in details in `trajectories_analisys.py`
 
 These objects have been designed to be easy to use, adapt and modify to the user's needs
